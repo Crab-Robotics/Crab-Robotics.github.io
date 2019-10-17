@@ -1,0 +1,13 @@
+# Center style footer navigation
+center:
+#  - title: Give
+#    url: /give/
+
+#  - title: Blog
+#    url: /blog/
+
+#  - title: Team
+#    url: /team/
+  
+  - title: FLL
+    url: http://www.firstlegoleague.org/

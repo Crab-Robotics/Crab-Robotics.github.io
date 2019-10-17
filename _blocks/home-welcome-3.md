@@ -1,0 +1,5 @@
+---
+title: Fun Facts
+---
+
+Established in 2018 as 5th graders
