@@ -1,0 +1,20 @@
+# Navbar menu navigation links
+left:
+
+center:
+
+right:
+  - title: Home
+    url: /
+  
+#  - title: Team
+#    url: /team/
+  
+#  - title: Give
+#    url: /give/
+  
+#  - title: Blog
+#    url: /blog/
+
+#  - title: Resources
+#    url: /resources/
