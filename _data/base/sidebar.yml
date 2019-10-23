@@ -3,16 +3,16 @@ blog:
   - widget: tagged
     type: posts
     primary:
-      title: Product news
-      tag: news
+      title: Project
+      tag: project
     secondary:
-      title: Editor picks
-      tag: pick
+      title: Robot Game
+      tag: robots
 
-  - widget: latest
-    type: posts
-    count: 15
-    title: Latest Posts
+  #- widget: latest
+  #  type: posts
+  #  count: 15
+  #  title: Latest Posts
 
 page:
   - widget: author

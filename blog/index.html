@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Blog Grid Boxed
-subtitle: Set number of card columns, chose from sigle layout or left or right sidebar
+title: C.R.A.B. Blogs
+subtitle: We share our learnings and fun moments for Outreach.
 section: large
 sidebar: 
   right: blog
@@ -11,11 +11,11 @@ navbar:
   transparent_color: light
 header:
   layout: center
-  background_image: header-7.jpg
+  background_image: header-blog-landing.jpg
   background_overlay: "rgba(0, 0, 0, 0.5)"
   header_size: xlarge
   color: light
-  heading_size: medium
+  heading_size: large
 ---
 
 {% if page.grid == '1-1' %}
@@ -42,7 +42,7 @@ header:
           <div class="uk-card uk-card-default uk-card-blog">
             {% if post.image %}
               <div class="uk-card-media-top uk-inline">
-                <img src="{% if post.image contains 'http' %}{{ post.image }}{% else %}{{ site.uploads | absolute_url }}{{ post.image }}{% endif %}" alt="{{ post.title }}">
+                <img src="{% if post.image contains 'http' %}{{ post.image }}{% else %}{{ site.posts_uploads | absolute_url }}{{ post.image }}{% endif %}" alt="{{ post.title }}">
                 <a class="uk-overlay uk-position-cover" href="{{ post.url | relative_url }}"></a>
               </div>
             {% endif %}
@@ -64,7 +64,7 @@ header:
       <div class="uk-card uk-card-default uk-card-blog">
         {% if post.image %}
           <div class="uk-card-media-top uk-inline">
-            <img src="{% if post.image contains 'http' %}{{ post.image }}{% else %}{{ site.uploads | absolute_url }}{{ post.image }}{% endif %}" alt="{{ post.title }}">
+            <img src="{% if post.image contains 'http' %}{{ post.image }}{% else %}{{ site.post_uploads | absolute_url }}{{ post.image }}{% endif %}" alt="{{ post.title }}">
             <a class="uk-overlay uk-position-cover" href="{{ post.url | relative_url }}"></a>
           </div>
         {% endif %}
