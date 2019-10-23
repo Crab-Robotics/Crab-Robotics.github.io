@@ -1,5 +1,5 @@
 ---
-title: FLL
+title: Fun Facts
 ---
 
-Part of First Lego Team
+We love each other

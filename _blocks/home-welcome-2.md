@@ -2,4 +2,4 @@
 title: Team
 ---
 
-Established in 2018 as 5th graders
+7 boys and 1 girl
