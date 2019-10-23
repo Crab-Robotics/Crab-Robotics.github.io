@@ -15,6 +15,7 @@ logo_light:             crab-red-smaller.png
 permalink:              /:title/ # Permalink URLs structure, for permalink style options see: https://jekyllrb.com/docs/permalinks/
 date_format:            "%b %-d, %Y" # refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
 uploads:                /uploads/ # Path to post content assets directory i.e post images, pdfs etc
+post_uploads:           /uploads/posts/
 template:               base
 
 paginate:               6 # Number of posts displayed on blog page
@@ -107,11 +108,11 @@ donations:
 
 # Social share buttons
 social_share:
-  twitter:              true
-  facebook:             true
-  linkedin:             true
-  pinterest:            true
-  reddit:               true
+  twitter:              false
+  facebook:             false
+  linkedin:             false
+  pinterest:            false
+  reddit:               false
 
 # Social buttons
 social_networks:
@@ -185,18 +186,19 @@ defaults:
       section:              large
       sidebar: 
         right:              blog
-      comments:             # true
-      share:                true
-      related:              true
-      mailchimp:            true
+      comments:             false
+      share:                false
+      related:              false
+      mailchimp:            false
       navbar:
         transparent:        true
         transparent_color:  light
       header:
         layout:             center
-        background_overlay: "rgba(0, 0, 0, 0.5)"
+        #background_overlay: "rgba(0, 0, 0, 0.8)"
+        background_overlay: "rgba(51, 30, 0, 0.65)"        
         color:              light
-        header_size:        large
+        header_size:        medium
         heading_size:       medium
         parallax:           true
   # _pages

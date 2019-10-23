@@ -9,7 +9,7 @@ navbar:
   transparent_color: light
 header:
   layout: 1-1 # Options: left, center, 1-1, 1-2, 1-3 or 2-3
-  background_image: crab-team-header.jpg
+  background_image: header-home.jpg
   background_align: center-center  
   background_overlay: "linear-gradient(to left top, rgba(82,229,231,0.8) 10%, rgba(47,47,162,0.9) 100%)"
   color: light
