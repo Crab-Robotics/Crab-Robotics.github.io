@@ -29,7 +29,7 @@ header:
   {% include cards.html 
     block="home-welcome" 
     section_size="large"
-    section_title="Welcome To C.R.A.B."
+    section_title="Welcome To C.R.A.B. #39374"
     section_header_align="center"
     section_background="muted"
     section_content_align="center"
