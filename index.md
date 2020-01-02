@@ -86,15 +86,23 @@ header:
     section_content_align="center"    
   %}
 
-  {% include cta.html 
+  {% include slider.html 
+    block="sponsors"
+    section_title="Sponsors and Partners"
+    section_subtitle="These are our sponsors and partners"
+    section_header_align="center"
+    section_content_align="center"
+    section_background="#2F2FA2" 
     section_size="large"
-    section_background="#2F2FA2"
-    section_container="small"
     section_content_align="center"
     section_content_color="light"
-    layout="1"
-    block="sponsors-partners"
-  %}
-  
+    display_title="false"
+    autoplay="true"
+    sets="true"
+    grid="1-4"
+    gutter="large"
+    navigation="outside"
+    dotnav="true"
+  %}  
 {% else %}
 {% endif %}
