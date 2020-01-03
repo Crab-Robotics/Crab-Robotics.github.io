@@ -200,7 +200,6 @@ defaults:
         header_size:        medium
         heading_size:       medium
         parallax:           true
-        container:          expand
   # _pages
   - scope:
       path:                 ""
