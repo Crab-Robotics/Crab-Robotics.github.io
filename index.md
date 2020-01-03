@@ -87,7 +87,7 @@ header:
   %}
 
   {% include slider.html 
-    block="sponsors"
+    block="sponpart"
     section_title="Sponsors and Partners"
     section_subtitle="These are our sponsors and partners"
     section_header_align="center"
