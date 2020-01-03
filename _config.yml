@@ -23,19 +23,19 @@ paginate_path:          "/blog/:num/" # Blog path
 
 # Default author settings
 author:
-  name:                 Pete Seth
+  name:                 C.R.A.B.
   avatar:               avatar-tom.png
-  title:                Support     
-  bio:                  I am the CEO of this company, loved by everyone, just plain awesome so you want to follow me all the time.
+  title:                     
+  bio:                  I am the Mascot of this group, loved by everyone, just plain awesome so you want to follow me all the time.
   url:
-  email:                info@blacompany.com
+  email:                crabroboticsteam@gmail.com
   website:
-  facebook:             https://www.facebook.com/
+  facebook:             
   flickr:
   dribbble:
   github:
   googleplus:
-  instagram:            https://www.instagram.com/
+  instagram:            
   linkedin:
   pinterest:
   twitter:
@@ -121,7 +121,7 @@ social_networks:
   facebook:             https://www.facebook.com/CRABRobotics/
   flickr:
   dribbble:
-  github:               https://github.com/Crab-Robotics/
+  github:               
   googleplus:
   instagram:            
   linkedin:
@@ -200,6 +200,7 @@ defaults:
         header_size:        medium
         heading_size:       medium
         parallax:           true
+        container:          expand
   # _pages
   - scope:
       path:                 ""
