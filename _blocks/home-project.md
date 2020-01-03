@@ -1,6 +1,6 @@
 ---
 title: Project
-image: home-corevalue.jpg
+image: home-project.jpg
 ---
 
 (2019-2020 Season)<br>
