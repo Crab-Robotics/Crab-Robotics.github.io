@@ -195,12 +195,12 @@ defaults:
         transparent_color:  light
       header:
         layout:             center
-        #background_overlay: "rgba(0, 0, 0, 0.8)"
         background_overlay: "rgba(51, 30, 0, 0.65)"        
         color:              light
         header_size:        medium
         heading_size:       medium
         parallax:           true
+        container:          expand
   # _pages
   - scope:
       path:                 ""

@@ -81,10 +81,38 @@ header:
   {% endfor %}
 </div>
 
+<!--
 <ul class="uk-pagination uk-flex-center uk-margin-large-top">
   {% if paginator.previous_page %}
   <li><h5 class="uk-margin-remove"><a href="{{ paginator.previous_page_path | relative_url }}">&larr; {{ site.data[site.template].translation[site.lang].previous | default: "Previous" }}</a></h5></li>
   {% endif %} {% if paginator.next_page %}
   <li><h5 class="uk-margin-remove"><a href="{{ paginator.next_page_path | relative_url }}">{{ site.data[site.template].translation[site.lang].next | default: "Next" }} &rarr;</a></h5></li>
+  {% endif %}
+</ul>
+-->
+
+<ul class="uk-pagination uk-flex-center uk-margin-large-top">
+  {% if paginator.total_pages > 1 %}
+    {% if paginator.previous_page %}
+    <li><h5 class="uk-margin-remove"><a href="{{ paginator.previous_page_path | relative_url }}">&larr; Prev</a></h5></li>
+    {% else %}
+    <li><h5 class="uk-margin-remove"><span>&larr; Prev</span></h5></li>
+    {% endif %}
+
+    {% for page in (1..paginator.total_pages) %}
+      {% if page == paginator.page %}
+      <li><h5 class="uk-margin-remove"><em>{{ page }}</em></h5></li>
+      {% elsif page == 1 %}
+      <li><h5 class="uk-margin-remove"><a href="{{ paginator.previous_page_path | relative_url }}">{{ page }}</a></h5></li>
+      {% else %}
+      <li><h5 class="uk-margin-remove"><a href="{{ site.paginate_path | relative_url | replace: ':num', page }}">{{ page }}</a></h5></li>
+      {% endif %}
+    {% endfor %}
+
+    {% if paginator.next_page %}
+    <li><h5 class="uk-margin-remove"><a href="{{ paginator.next_page_path | relative_url }}">Next &rarr;</a></h5></li>
+    {% else %}
+    <li><h5 class="uk-margin-remove"><span>Next &rarr;</span></h5></li>
+    {% endif %}
   {% endif %}
 </ul>
