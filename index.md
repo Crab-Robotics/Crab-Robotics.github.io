@@ -76,11 +76,14 @@ header:
     card_style="default"
   %}
 
-  {% include cta.html
+  {% include block.html
     block="home-current-year"
-    layout="1"
+    layout="1-1"
+    block_title="false"
+    section_title="FLL 2019-2020 Season"
+    section_header_align="center"
     section_size="medium"
-    section_content_align="center"
+    section_content_align="center"    
   %}
 
   {% include cta.html 
