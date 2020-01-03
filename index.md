@@ -76,11 +76,10 @@ header:
     card_style="default"
   %}
 
-  {% include image.html
-    src="2020-FLL-Logos-PMS_stacked-logo-color.png"
-    section_title="FLL 2019-2020 Season"
+  {% include cta.html
+    block="home-current-year"
+    layout="1"
     section_size="medium"
-    section_header_align="center"
     section_content_align="center"
   %}
 
