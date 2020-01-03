@@ -1,6 +1,6 @@
 ---
 title: Core Value
-image: home-corevalue.jpg
+image: home-core-value.jpg
 ---
 
 Its no conspirancy theory, core values are a part of all that we do.<br>
