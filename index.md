@@ -83,7 +83,8 @@ header:
     section_title="FLL 2019-2020 Season"
     section_header_align="center"
     section_size="medium"
-    section_content_align="center"    
+    section_content_align="center"
+    section_container="expand"    
   %}
 
   {% include slider.html 
