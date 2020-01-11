@@ -9,3 +9,6 @@ How To's - Useful Information
 * If first time, run `bundle install` for dependancy installations
 * Run `bundle exec jekyll serve`
 * Open browser and go to `localhost:4000`
+
+Questions:
+* ...
