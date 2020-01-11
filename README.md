@@ -10,5 +10,6 @@ How To's - Useful Information
 * Run `bundle exec jekyll serve`
 * Open browser and go to `localhost:4000`
 
-Questions:
-* ...
+Tutorials:
+* YouTube Tutorial - VSCode and GIt
+    https://www.youtube.com/watch?v=VOwyH2-VCVY
