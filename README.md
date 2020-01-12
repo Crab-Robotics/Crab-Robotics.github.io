@@ -9,3 +9,7 @@ How To's - Useful Information
 * If first time, run `bundle install` for dependancy installations
 * Run `bundle exec jekyll serve`
 * Open browser and go to `localhost:4000`
+
+Tutorials:
+* YouTube Tutorial - VSCode and GIt - https://www.youtube.com/watch?v=VOwyH2-VCVY
+* 
