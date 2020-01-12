@@ -1,9 +1,9 @@
 ---
-title: Core Value
+title: Core Values
 image: home-core-value.jpg
 ---
 
-It's no conspirancy theory that core values are part of all that we do.<br>
+It's no conspiracy theory that core values are part of all that we do.<br>
 * Program, build, and drive, ask us about our CRAB Raves!
 * After each meeting we create a Video Blog (VLOG) and publish on YouTube.
 
