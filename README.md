@@ -11,5 +11,5 @@ How To's - Useful Information
 * Open browser and go to `localhost:4000`
 
 Tutorials:
-* YouTube Tutorial - VSCode and GIt
-    https://www.youtube.com/watch?v=VOwyH2-VCVY
+* YouTube Tutorial - VSCode and GIt - https://www.youtube.com/watch?v=VOwyH2-VCVY
+* 
