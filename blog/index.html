@@ -103,7 +103,7 @@ header:
       {% if page == paginator.page %}
       <li><h5 class="uk-margin-remove"><em>{{ page }}</em></h5></li>
       {% elsif page == 1 %}
-      <li><h5 class="uk-margin-remove"><a href="{{ paginator.previous_page_path | relative_url }}">{{ page }}</a></h5></li>
+      <li><h5 class="uk-margin-remove"><a href="{{ site.blogbaseurl }}">{{ page }}</a></h5></li>
       {% else %}
       <li><h5 class="uk-margin-remove"><a href="{{ site.paginate_path | relative_url | replace: ':num', page }}">{{ page }}</a></h5></li>
       {% endif %}
