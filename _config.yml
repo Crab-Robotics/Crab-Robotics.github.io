@@ -7,7 +7,7 @@
 # Site settings
 title:                  C.R.A.B.
 description:            Cool Robots And Builders
-url:                    "" # Site base hostname & protocol, e.g. http://example.com
+url:                    https://www.crabrobotics.com # Site base hostname & protocol, e.g. http://example.com
 baseurl:                # Site subpath, e.g. /blog
 lang:                   en
 logo:                   crab-red-smaller.png
