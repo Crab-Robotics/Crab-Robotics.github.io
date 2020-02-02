@@ -17,9 +17,10 @@ date_format:            "%b %-d, %Y" # refer to http://shopify.github.io/liquid/
 uploads:                /uploads/ # Path to post content assets directory i.e post images, pdfs etc
 post_uploads:           /uploads/posts/
 template:               base
+blogbaseurl:            "/blog/"
 
 paginate:               6 # Number of posts displayed on blog page
-paginate_path:          "/blog/:num/" # Blog path
+paginate_path:          "/blog/page:num/" # Blog path
 
 # Default author settings
 author:
