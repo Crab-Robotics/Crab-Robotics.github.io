@@ -94,7 +94,7 @@ mailchimp:
   form_action:          000000
   hidden_name:          000000
   
-google_analytics:       # Google analytics code, get your code here https://www.google.com/analytics/
+google_analytics:       UA-157738744-1 # Google analytics code, get your code here https://www.google.com/analytics/
 google_maps_api_key:    # Google maps API key, get your key here: https://developers.google.com/maps/documentation/javascript/get-api-key
 
 disqus:
