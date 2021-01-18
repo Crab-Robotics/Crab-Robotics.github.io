@@ -1,6 +1,6 @@
 ---
 title: Episode 25 - The VLOG Returns!
-image: vlog-2020-01-10-ep25.png
+image: vlog-2021-01-10-ep25.png
 author: alex
 categories: [project]
 tags: [project]
